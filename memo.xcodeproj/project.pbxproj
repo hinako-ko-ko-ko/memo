@@ -13,6 +13,8 @@
 		B8E9ECBF28BA3F4400692D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9ECBD28BA3F4400692D3A /* Main.storyboard */; };
 		B8E9ECC128BA3F4800692D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E9ECC028BA3F4800692D3A /* Assets.xcassets */; };
 		B8E9ECC428BA3F4800692D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9ECC228BA3F4800692D3A /* LaunchScreen.storyboard */; };
+		B8E9ECCE28BA400600692D3A /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9ECCD28BA400600692D3A /* MemoViewController.swift */; };
+		B8E9ECD028BA441400692D3A /* 5385.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8E9ECCF28BA441400692D3A /* 5385.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B8E9ECC028BA3F4800692D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E9ECC328BA3F4800692D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8E9ECC528BA3F4800692D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E9ECCD28BA400600692D3A /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		B8E9ECCF28BA441400692D3A /* 5385.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5385.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				B8E9ECB928BA3F4400692D3A /* SceneDelegate.swift */,
 				B8E9ECBB28BA3F4400692D3A /* ViewController.swift */,
 				B8E9ECBD28BA3F4400692D3A /* Main.storyboard */,
+				B8E9ECCF28BA441400692D3A /* 5385.jpeg */,
 				B8E9ECC028BA3F4800692D3A /* Assets.xcassets */,
 				B8E9ECC228BA3F4800692D3A /* LaunchScreen.storyboard */,
 				B8E9ECC528BA3F4800692D3A /* Info.plist */,
+				B8E9ECCD28BA400600692D3A /* MemoViewController.swift */,
 			);
 			path = memo;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				B8E9ECC428BA3F4800692D3A /* LaunchScreen.storyboard in Resources */,
 				B8E9ECC128BA3F4800692D3A /* Assets.xcassets in Resources */,
+				B8E9ECD028BA441400692D3A /* 5385.jpeg in Resources */,
 				B8E9ECBF28BA3F4400692D3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E9ECCE28BA400600692D3A /* MemoViewController.swift in Sources */,
 				B8E9ECBC28BA3F4400692D3A /* ViewController.swift in Sources */,
 				B8E9ECB828BA3F4400692D3A /* AppDelegate.swift in Sources */,
 				B8E9ECBA28BA3F4400692D3A /* SceneDelegate.swift in Sources */,
